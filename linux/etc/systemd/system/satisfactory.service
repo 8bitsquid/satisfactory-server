@@ -18,7 +18,7 @@ ExecStart=/usr/bin/docker run \
             -p 7777:7777/udp \
             -p 15000:15000/udp \
             -p 15777:15777/udp \
-            --env-file /etc/satisfactory.d/satisfactory
+            --env-file /etc/satisfactory.d/satisfactory \
             wolveix/satisfactory-server:latest
 ExecStop=/usr/bin/docker stop %n
 Restart=always
