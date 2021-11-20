@@ -52,6 +52,13 @@ services:
         restart: unless-stopped
 ```
 
+### Linux systemd service
+
+```
+$ sudo curl -o install.sh https://raw.githubusercontent.com/8bitsquid/satisfactory-server/main/linux/install.sh && sh install.sh
+$ sudo systemctl start satisfactory
+```
+
 ## Environment Variables
 
 | Parameter | Function |
