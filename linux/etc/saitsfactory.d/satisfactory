@@ -1,0 +1,6 @@
+# Environment variables passed to the docker container
+
+MAXPLAYERS=8
+PGID=1000
+PUID=1000
+STEAMBETA=false
